@@ -8,7 +8,7 @@ import Stats from "@/components/stats";
 export default function Home() {
   return (
     <section>
-      <div className="container mx-auto h-full">
+      <div className="container mx-auto h-full mb-8">
         <div className="flex flex-col xl:flex-row items-center justify-between">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
