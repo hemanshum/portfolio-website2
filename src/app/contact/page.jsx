@@ -25,12 +25,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "hemanshu.mahajan@gmail.com",
   },
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "Code Corner, Tech Town 132332",
+    description: "Pune, Maharashtra, Bharat (India)",
   },
 ];
 

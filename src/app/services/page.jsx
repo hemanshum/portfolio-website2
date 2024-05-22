@@ -6,30 +6,30 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "App Development",
     description:
-      "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum socis natoque penatibus et justo lorem.",
+      "Our Mobile App Development service leverages the latest technologies, including React Native, Expo and Redux Toolkit, to create high-performance, scalable, and user-friendly applications. Whether you're starting from scratch or looking to enhance an existing app, we provide end-to-end solutions tailored to your business needs. Let us help you bring your vision to life with seamless functionality and intuitive design.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Web Development",
     description:
-      "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum socis natoque penatibus et justo lorem.",
+      "Our Web Development service utilizes React, NextJS, Tailwind CSS, Shadcn UI, Parse Server, and MongoDB to create dynamic, responsive, and scalable web applications. From front-end design to back-end integration, we ensure your web app is fast, secure, and user-friendly. Let us transform your ideas into robust web solutions that drive growth and engagement.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "UI/UX Design",
     description:
-      "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum socis natoque penatibus et justo lorem.",
-    href: "",
+      "Our UI/UX Design service focuses on creating visually appealing and highly intuitive designs that enhance user engagement. We blend aesthetics with functionality to deliver seamless and enjoyable user experiences. From wireframes to final designs, we tailor every aspect to align with your brand and user needs, ensuring a cohesive and captivating digital presence. Craft Exceptional User Experiences and Stunning Interfaces!",
+    href: "https://www.behance.net/hemanshum",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Design",
     description:
-      "lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem. Cum socis natoque penatibus et justo lorem.",
+      "Our Design service offers creative solutions for social media posts, presentations, flyers, posters, and logos. We focus on crafting visually compelling and brand-aligned designs that capture attention and convey your message effectively. Whether for digital or print, we ensure your materials stand out and make a lasting impression.",
     href: "",
   },
 ];
@@ -61,6 +61,7 @@ const Services = () => {
                   </div>
                   <Link
                     href={service.href}
+                    target="_blank"
                     className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                   >
                     <BsArrowDownRight className="text-primary text-3xl" />

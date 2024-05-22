@@ -11,7 +11,7 @@ const Header = () => {
         {/* logo */}
         <Link href="/">
           <h1 className="text-4xl font-black">
-            Eklauta<span className="text-accent">.</span>
+            hmm<span className="text-accent">.</span>
           </h1>
         </Link>
         {/* desktop nav & hire me button */}
